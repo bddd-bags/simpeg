@@ -20,6 +20,7 @@ class UserSeeder extends Seeder
                 "email" => "admin@gmail.com",
                 "password" => bcrypt("admin123"),
                 "role_id" => 1,
+                "is_active" => true,
                 "created_at" => new \DateTime(),
                 "updated_at" => new \DateTime(),
             ],
@@ -28,6 +29,7 @@ class UserSeeder extends Seeder
                 "email" => "pegawai@gmail.com",
                 "password" => bcrypt("pegawai123"),
                 "role_id" => 2,
+                "is_active" => true,
                 "created_at" => new \DateTime(),
                 "updated_at" => new \DateTime(),
             ]
